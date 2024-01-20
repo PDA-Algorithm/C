@@ -34,7 +34,7 @@ int main(){
     
     if(!st.empty()) {cout<<0; return 0;}
     int ans=0;
-    //현재까지의 값을 계속 갱신하며(* or /), 값이 더해져야하는 순간에(제일 안쪽 괄호를 만났을 때) 결과에 반영한다.
+    
     int temp=1;
     
     for(int i=0;i<s.size();i++){
