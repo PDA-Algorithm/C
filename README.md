@@ -15,3 +15,10 @@
 | 10828 | [스택](https://www.acmicpc.net/problem/10828) | 실버 4 |
 | 2504 | [괄호의 값](https://www.acmicpc.net/problem/2504) | 골드 5 |
 
+### 🚩 week 2
+| 문제 | 제목 | rank |
+| -- | -- | -- |
+| 21939 | [문제 추천 시스템 Version 1](https://www.acmicpc.net/problem/21939) | 골드 4 |
+| 11279 | [최대 힙](https://www.acmicpc.net/problem/11279) | 실버 2 |
+| 7662 | [이중 우선순위 큐](https://www.acmicpc.net/problem/7662) | 골드 4 |
+| 7785 | [회사에 있는 사람](https://www.acmicpc.net/problem/7785) | 실버 5 |
