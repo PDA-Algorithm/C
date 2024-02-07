@@ -32,3 +32,12 @@
 | 1068  |       [트리](https://www.acmicpc.net/problem/1068)        | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |
 | 9372  |   [상근이의 여행](https://www.acmicpc.net/problem/9372)   | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/>  |
 | 1967  |    [트리의 지름](https://www.acmicpc.net/problem/1967)    | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |
+
+### 🚩 week 4
+
+| 문제  |                           제목                           |                                        rank                                        |
+| :---: | :------------------------------------------------------: | :--------------------------------------------------------------------------------: |
+| 9184  | [신나는 함수 실행](https://www.acmicpc.net/problem/9184) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>  |
+| 11052 |  [카드 구매하기](https://www.acmicpc.net/problem/11052)  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |
+| 14501 |      [퇴사](https://www.acmicpc.net/problem/14501)       | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>  |
+| 9465  |      [스티커](https://www.acmicpc.net/problem/9465)      | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |
