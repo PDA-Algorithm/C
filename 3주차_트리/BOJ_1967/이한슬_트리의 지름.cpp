@@ -18,19 +18,19 @@ int main()
 
 	int n;
 	cin >> n;
-	for (int i = 1; i < n; i++) { // root³ëµå 1ºÎÅÍ »ı°¢, °£¼±Á¤º¸ n-1°³
+	for (int i = 1; i < n; i++) { // rootë…¸ë“œ 1ë¶€í„° ìƒê°, ê°„ì„ ì •ë³´ n-1ê°œ
 		int v1, v2, e;
-		cin >> v1 >> v2 >> e; // ºÎ¸ğ³ëµå ÀÚ½Ä³ëµå °¡ÁßÄ¡
+		cin >> v1 >> v2 >> e; // ë¶€ëª¨ë…¸ë“œ ìì‹ë…¸ë“œ ê°€ì¤‘ì¹˜
 		tree[v1].push_back({ v2,e });
 		tree[v2].push_back({ v1,e });
 	}
 
-	// 1¹ø (root)³ëµåºÎÅÍ Ã£±â ½ÃÀÛ
+	// 1ë²ˆ (root)ë…¸ë“œë¶€í„° ì°¾ê¸° ì‹œì‘
 	dfs(1, 0);
 	
-	memset(visit, false, sizeof(visit)); //ÃÊ±âÈ­
+	memset(visit, false, sizeof(visit)); //ì´ˆê¸°í™”
 	maxlength = 0;
-	dfs(maxnode, 0); //°¡Àå ¸Õ Á¤Á¡¿¡¼­ Á¦ÀÏ ¸Õ Á¤Á¡ Ã£±â
+	dfs(maxnode, 0); //ê°€ì¥ ë¨¼ ì •ì ì—ì„œ ì œì¼ ë¨¼ ì •ì  ì°¾ê¸°
 
 	cout << maxlength << "\n";
 	return 0;
@@ -38,7 +38,7 @@ int main()
 
 void dfs(int node, int w) {
 	
-	if (visit[node]) //¹æ¹®ÇÑ Àû ÀÖÀ¸¸é return
+	if (visit[node]) //ë°©ë¬¸í•œ ì  ìˆìœ¼ë©´ return
 		return;
 	visit[node] = true;
 
