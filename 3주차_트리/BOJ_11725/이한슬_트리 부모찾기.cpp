@@ -21,12 +21,12 @@ int main()
 		int n1, n2;
 		cin >> n1 >> n2;
 		tree[n1].push_back(n2);
-		tree[n2].push_back(n1); //³ëµå¿¡ ¿¬°áµÈ °¢ ³ëµåµé ÀúÀå
+		tree[n2].push_back(n1); //ë…¸ë“œì— ì—°ê²°ëœ ê° ë…¸ë“œë“¤ ì €ì¥
 	}
 
 	find_tree();
 
-	for (int i = 2; i <= N; i++) { // root Á¦¿ÜÇÏ°í Ãâ·Â
+	for (int i = 2; i <= N; i++) { // root ì œì™¸í•˜ê³  ì¶œë ¥
 		printf("%d\n", res[i]);
 	}
 
@@ -36,7 +36,7 @@ int main()
 void find_tree(void) {
 	queue<int> q;
 	visit[1] = true;
-	q.push(1); //root 1ÀÌ¶ó°í ÇÔ
+	q.push(1); //root 1ì´ë¼ê³  í•¨
 
 	while (!q.empty()) {
 		int p = q.front();
